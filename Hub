@@ -17,3 +17,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ZenithGuy1/Numerous/m
 else
 
 end
+
+if not game.PlaceId == 2753915549 or not game.PlaceId == 4442272183 or not game.PlaceId == 7449423635 or not game.PlaceId == 11520107397 or not game.PlaceId == 6403373529 or not game.PlaceId == 9015014224 or not game.PlaceId == 13772394625 then
+OrionLib:MakeNotification({
+Name = "Erro",
+Content = "Você não está jogando nenhum jogo suportado!",
+Time = 5
+})
+end
