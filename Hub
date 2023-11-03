@@ -13,3 +13,7 @@ else
 end
 
 if game.PlaceId == 13772394625 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ZenithGuy1/Numerous/main/Blade"))()
+else
+
+end
