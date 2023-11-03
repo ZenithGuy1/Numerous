@@ -1,0 +1,17 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/Mobile%20Friendly%20Orion')))()
+
+if game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7449423635 then
+loadstring(game:HttpGet("https://pastebin.com/YT2ijZmt"))()
+else
+OrionLib:MakeNotification({
+Name = "teste",
+Content = "teste",
+Time = 5
+})
+end
+
+if game.PlaceId == 11520107397 or game.PlaceId == 6403373529 or game.PlaceId == 9015014224 then
+loadstring(game:HttpGet("https://pastebin.com/raw/EZeqHKJj"))()
+else
+
+end
