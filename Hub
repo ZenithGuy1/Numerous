@@ -7,7 +7,7 @@ else
 end
 
 if game.PlaceId == 11520107397 or game.PlaceId == 6403373529 or game.PlaceId == 9015014224 then
-loadstring(game:HttpGet("https://pastebin.com/raw/EZeqHKJj"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ZenithGuy1/Numerous/main/SB"))()
 else
 
 end
