@@ -4,7 +4,7 @@ end
  
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/Mobile%20Friendly%20Orion')))()
  
-local Window = OrionLib:MakeWindow({Name = "Numerous Hub | Blox Fruits", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest",IntroText = "Numerous Blox",IntroIcon = "rbxassetid://7733954058})
+local Window = OrionLib:MakeWindow({Name = "Numerous Hub | Blox Fruits", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest",IntroText = "Numerous Blox",IntroIcon = "rbxassetid://7733954058"})
  
 local Tab = Window:MakeTab({
 Name = "Início",
