@@ -13,7 +13,7 @@ else
 OrionLib:MakeNotification({
 Name = "Erro",
 Content = "Você não está jogando nenhum jogo suportado!",
-Image = "rbxassetid://7733658335",
+Image = "rbxassetid://7743878618",
 Time = 5
 })
 
