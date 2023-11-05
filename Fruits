@@ -20,7 +20,7 @@ PremiumOnly = false
  
 local Tab3 = Window:MakeTab({
 Name = "Blox Fruits",
-Icon = "rbxassetid://7733920644",
+Icon = "rbxassetid://7733779730",
 PremiumOnly = false
 })
  
