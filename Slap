@@ -14,13 +14,13 @@ PremiumOnly = false
  
 local Tab2 = Window:MakeTab({
 Name = "Universal",
-Icon = "rbxassetid://7733920644",
+Icon = "rbxassetid://8997386062",
 PremiumOnly = false
 })
  
 local Tab3 = Window:MakeTab({
 Name = "Slap Battles",
-Icon = "rbxassetid://7733920644",
+Icon = "rbxassetid://7733779730",
 PremiumOnly = false
 })
  
