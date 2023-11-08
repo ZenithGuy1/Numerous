@@ -93,7 +93,7 @@ end
 })
 
 Tab3:AddButton({
-Name = "^ Copiar key do Cokka (536344737283)",
+Name = "📋Copiar key do Cokka (536344737283)",
 Callback = function()
 setclipboard("536344737283")
 end
