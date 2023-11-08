@@ -84,7 +84,12 @@ Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/Tsuoscripts"))()
 end
 })
- 
+
+Tab3:AddButton({
+Name = "Cokka Hub",
+Callback = function()
+
+
 Tab3:AddButton({
 Name = "Pado Hub",
 Callback = function()
