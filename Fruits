@@ -86,13 +86,6 @@ end
 })
  
 Tab3:AddButton({
-Name = "Ganten Hub",
-Callback = function()
-loadstring(game:HttpGet("https://isnahamzahpastebin.tech/v1/gantenghubv1_026.lua"))()
-end
-})
- 
-Tab3:AddButton({
 Name = "Pado Hub",
 Callback = function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/REWzaKunGz1/premium/main/PadoHub'))()   
