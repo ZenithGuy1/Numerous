@@ -116,13 +116,12 @@ end
 Tab3:AddButton({
 Name = "Relz Hub (Copia a Key e executa o script)",
 Callback = function()
-loadstring(game:HttpGet"https://raw.githubusercontent.com/reicann/a08jx4/main/as8p2fx.script")() 
-setclipboard("OZzMH1Zrf7")
+loadstring(game:HttpGet"https://raw.githubusercontent.com/reicann/a08jx4/main/as8p2fx.script")()
 end
 })
 
 Tab3:AddButton({
-Name = "📋 Copiar key do Relz (OZzMH1Zrf7)",
+Name = "📋 Copiar key do Relz (COPIE PRIMEIRO!!!)",
 Callback = function()
 setclipboard("OZzMH1Zrf7")
 end
