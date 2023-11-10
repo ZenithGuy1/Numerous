@@ -112,7 +112,21 @@ Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhtriettt/Free-Script/main/MTriet-Hub.lua"))()
 end
 })
- 
+
+Tab3:AddButton({
+Name = "Relz Hub (Key)",
+Callback = function()
+loadstring(game:HttpGet"https://raw.githubusercontent.com/reicann/a08jx4/main/as8p2fx.script")()
+end
+})
+
+Tab3:AddButton({
+Name = "📋 Copiar key do Relz (OZzMH1Zrf7)",
+Callback = function()
+setclipboard("OZzMH1Zrf7")
+end
+})
+
 Tab3:AddButton({
 Name = "Dominance Hub",
 Callback = function()
