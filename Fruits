@@ -121,7 +121,6 @@ end
 Tab3:AddButton({
 Name = "Relz Hub (Copia a Key e executa o script)",
 Callback = function(string)
-setclipboard("OZzMH1Zrf7")
 end
 })
 
