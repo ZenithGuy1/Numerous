@@ -133,7 +133,14 @@ Callback = function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Script-Blox/Script/main/Dominance'))()
 end
 })
- 
+
+Tab3:AddButton({
+Name = "Sara Hub (⭐)",
+Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SaraSenpai/bloxfruist/main/Sarahub"))()
+end
+})
+
 Tab3:AddLabel("Vou adicionar mais scripts assim que possível :)")
  
 OrionLib:Init()
