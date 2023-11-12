@@ -6,6 +6,16 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/ion
  
 local Window = OrionLib:MakeWindow({Name = "Numerous Hub | Blox Fruits", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest",IntroText = "Numerous Blox",IntroIcon = "rbxassetid://7733678388"})
 
+function cokka()
+loadstring(game:HttpGet("https://codeberg.org/CokkaHub/Loadstring/raw/branch/main/CokkaHub.lua"))()
+setclipboard("536344737283")
+end
+
+function relz()
+loadstring(game:HttpGet"https://raw.githubusercontent.com/reicann/a08jx4/main/as8p2fx.script")()
+setclipboard("OZzMH1Zrf7")
+end
+
 local Tab = Window:MakeTab({
 Name = "Início",
 Icon = "http://www.roblox.com/asset/?id=4370345144",
@@ -86,16 +96,9 @@ end
 })
 
 Tab3:AddButton({
-Name = "Cokka Hub",
+Name = "Cokka Hub (Copia a key e executa o script)",
 Callback = function()
-loadstring(game:HttpGet("https://codeberg.org/CokkaHub/Loadstring/raw/branch/main/CokkaHub.lua"))() 
-end
-})
-
-Tab3:AddButton({
-Name = "📋Copiar key do Cokka (536344737283)",
-Callback = function()
-setclipboard("536344737283")
+cokka() 
 end
 })
 
@@ -116,14 +119,7 @@ end
 Tab3:AddButton({
 Name = "Relz Hub (Copia a Key e executa o script)",
 Callback = function()
-loadstring(game:HttpGet"https://raw.githubusercontent.com/reicann/a08jx4/main/as8p2fx.script")()
-end
-})
-
-Tab3:AddButton({
-Name = "📋 Copiar key do Relz (COPIE PRIMEIRO!!!)",
-Callback = function()
-setclipboard("OZzMH1Zrf7")
+relz()
 end
 })
 
