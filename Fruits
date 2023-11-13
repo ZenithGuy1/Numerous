@@ -11,11 +11,6 @@ loadstring(game:HttpGet("https://codeberg.org/CokkaHub/Loadstring/raw/branch/mai
 setclipboard("536344737283")
 end
 
-function relz()
-loadstring(game:HttpGet"https://raw.githubusercontent.com/reicann/a08jx4/main/as8p2fx.script")()
-setclipboard("OZzMH1Zrf7")
-end
-
 local Tab = Window:MakeTab({
 Name = "Início",
 Icon = "http://www.roblox.com/asset/?id=4370345144",
@@ -96,6 +91,13 @@ end
 })
 
 Tab3:AddButton({
+Name = "Raito Hub (Key)",
+Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/main/Script"))()
+end
+})
+
+Tab3:AddButton({
 Name = "Cokka Hub (Copia a key e executa o script)",
 Callback = function()
 cokka() 
@@ -117,9 +119,9 @@ end
 })
 
 Tab3:AddButton({
-Name = "Relz Hub (Copia a Key e executa o script)",
+Name = "Relz Hub (Key)",
 Callback = function()
-relz()
+loadstring(game:HttpGet"https://raw.githubusercontent.com/reicann/a08jx4/main/as8p2fx.script")()
 end
 })
 
@@ -131,7 +133,7 @@ end
 })
 
 Tab3:AddButton({
-Name = "Sara Hub (⭐)",
+Name = "Sara Hub",
 Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/SaraSenpai/bloxfruist/main/Sarahub"))()
 end
