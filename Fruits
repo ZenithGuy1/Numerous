@@ -98,6 +98,13 @@ end
 })
 
 Tab3:AddButton({
+Name = "Fai Fao Hub",
+Callback = function()
+loadstring(game:HttpGet("https://gist.githubusercontent.com/RedZenXYZ/4d80bfd70ee27000660e4bfa7509c667/raw/da903c570249ab3c0c1a74f3467260972c3d87e6/KeyBoard%2520From%2520Ohio%2520Fr%2520Fr"))()
+end
+})
+
+Tab3:AddButton({
 Name = "Cokka Hub (Copia a key e executa o script)",
 Callback = function()
 cokka() 
